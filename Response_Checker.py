@@ -47,7 +47,6 @@ if __name__== '__main__':
 
     try:
         url = sys.argv[1]
-        # method = sys.argv[2]
         Check_url(url)
     except IndexError:
         print ('/!\\ Usage : %s [URL_LIST] or [URL] \n' % sys.argv[0])
